@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/scan_document"
+            android:title="scan documents" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/select_images"
+            android:title="Select images"
+            />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/invite"
+            android:title="invite" />
+
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/rating"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help and Support" />
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Exit" />
+
+
+    </group>
+
+</menu>
+
+
